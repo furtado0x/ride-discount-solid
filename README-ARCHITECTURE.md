@@ -61,10 +61,10 @@ o_solid/
   - `ProportionalDistanceDiscountRule`: 0.5% por km acima de 5km, máx 20%
   - `OffPeakDiscountRule`: 20% (noite) ou 10% (meio-dia útil)
 
-**Padrões aplicados:**
-- Strategy Pattern (cada regra é uma estratégia)
+**Princípios e padrões aplicados:**
 - Open/Closed Principle (adicione novas regras sem modificar código existente)
 - Single Responsibility (uma regra = uma classe)
+- Auto-registro via `__init_subclass__` (todas as regras são automaticamente registradas e aplicadas)
 
 ### 2. Application Layer (Camada de Aplicação)
 
@@ -248,7 +248,7 @@ class WeekendDiscountRule(DiscountRule):
 ## 📚 Referências
 
 - Clean Architecture (Robert C. Martin)
-- SOLID Principles
+- SOLID Principles (especialmente Open/Closed Principle)
 - Domain-Driven Design (DDD)
 - Python Type Hints (PEP 484, 544)
-- Strategy Pattern (Gang of Four)
+- Python `__init_subclass__` hook (PEP 487)

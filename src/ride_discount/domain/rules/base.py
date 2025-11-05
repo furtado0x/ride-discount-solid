@@ -14,10 +14,16 @@ if TYPE_CHECKING:
 class DiscountRule(ABC):
     """Abstract base class for discount rules.
 
-    This class implements the Strategy Pattern with automatic registration.
-    All subclasses are automatically registered when they are defined,
-    allowing the system to be extended without modifying existing code
-    (Open/Closed Principle).
+    This class implements the Open/Closed Principle through automatic
+    registration. All subclasses are automatically registered when they
+    are defined. When calculating discounts, ALL registered rules are
+    evaluated, and each rule independently decides whether to apply a
+    discount (returning DiscountResult) or not (returning None).
+    All applicable discounts are then aggregated together.
+
+    This design allows the system to be extended with new discount rules
+    without modifying existing code - simply create a new subclass and
+    it will be automatically registered and applied.
 
     Class Attributes:
         registered_rules: List of all registered discount rule classes
