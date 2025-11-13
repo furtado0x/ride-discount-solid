@@ -14,7 +14,7 @@
 ╠═══════════════════════════════════════════════════════════════════════════╣
 ║                                                                           ║
 ║  ID: RIDE-1234                                    Type: 📖 Story          ║
-║  Title: Implementar Sistema de Calculo de Descontos                      ║
+║  Title: Implementar Sistema de Calculo de Descontos                       ║
 ║                                                                           ║
 ║  Priority: 🔴 Alta            Sprint: 14           Points: 8              ║
 ║  Assignee: Voce              Status: 📝 To Do                             ║
@@ -23,20 +23,20 @@
 ║  📝 DESCRICAO                                                             ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
 ║                                                                           ║
-║  Preciso que voce implemente um sistema de calculo de descontos para     ║
-║  nossa plataforma de corridas. O sistema deve aplicar diferentes tipos   ║
-║  de descontos baseados em regras de negocio especificas.                 ║
+║  Preciso que voce implemente um sistema de calculo de descontos para      ║
+║  nossa plataforma de corridas. O sistema deve aplicar diferentes tipos    ║
+║  de descontos baseados em regras de negocio especificas.                  ║
 ║                                                                           ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
 ║  ✅ CRITERIOS DE ACEITACAO                                                ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
 ║                                                                           ║
-║  [ ] Aplicar desconto progressivo por frequencia de uso                  ║
-║  [ ] Aplicar desconto proporcional a distancia percorrida                ║
-║  [ ] Aplicar desconto por horario off-peak (madrugada e meio-dia)        ║
-║  [ ] Descontos acumulativos com limite maximo de 50%                     ║
-║  [ ] Sistema extensivel para novos descontos SEM modificar codigo        ║
-║  [ ] Usar calculos dinamicos (NAO usar valores hardcoded)                ║
+║  [ ] Aplicar desconto progressivo por frequencia de uso                   ║
+║  [ ] Aplicar desconto proporcional a distancia percorrida                 ║
+║  [ ] Aplicar desconto por horario off-peak (madrugada e meio-dia)         ║
+║  [ ] Descontos acumulativos com limite maximo de 50%                      ║
+║  [ ] Sistema extensivel para novos descontos SEM modificar codigo         ║
+║  [ ] Usar calculos dinamicos (NAO usar valores hardcoded)                 ║
 ║                                                                           ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
 ║  💬 COMENTARIOS                                                           ║
