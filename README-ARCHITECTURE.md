@@ -20,7 +20,6 @@ o_solid/
 │       │   ├── dtos.py             # DTOs (RideContext)
 │       │   └── use_cases/          # Casos de uso
 │       │       └── calculate_ride_discount.py
-│       └── protocols.py            # Protocols para type hints
 ├── tests/                          # Testes (espelham a estrutura)
 │   ├── conftest.py                 # Fixtures compartilhadas
 │   ├── domain/
@@ -170,7 +169,6 @@ tests/
 ### Type Checking (mypy)
 - Modo strict habilitado
 - Type hints completos em todas as funções
-- Protocols para structural typing
 - Compatibilidade com Python 3.10+
 
 ### Linting (ruff)
@@ -193,7 +191,7 @@ tests/
 | **Separação** | Nenhuma | Classes | Camadas (domain/app) |
 | **Testabilidade** | Baixa | Média | Alta |
 | **Extensibilidade** | Modificação | Modificação | Extensão |
-| **Type hints** | Alguns | Completos | Completos + Protocols |
+| **Type hints** | Alguns | Completos | Completos |
 | **Imutabilidade** | Não | Parcial | Total (`frozen=True`) |
 | **Validação** | Runtime | Runtime | Design time + Runtime |
 | **Linhas de código** | ~60 | ~90 | ~300 (com testes: ~800) |

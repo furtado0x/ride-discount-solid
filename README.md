@@ -42,17 +42,14 @@
 ║  💬 COMENTARIOS                                                           ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
 ║                                                                           ║
-║  👨‍💼 Tech Lead (hoje as 09:23):                                           ║
+║  👨‍💼 Tech Lead (hoje as 09:23):                                            ║
 ║                                                                           ║
-║  "Galera, esse sistema vai crescer MUITO. Hoje sao 3 tipos de desconto,  ║
-║   mas ja temos no roadmap: desconto de milestone, happy hour, primeira   ║
-║   corrida do dia, parceiros corporativos, etc.                           ║
+║  "Galera, esse sistema vai crescer MUITO. Hoje sao 3 tipos de desconto,   ║
+║   mas ja temos no roadmap: desconto de milestone, happy hour, primeira    ║
+║   corrida do dia, parceiros corporativos, etc.                            ║
 ║                                                                           ║
-║   Preciso que seja facil adicionar novos descontos sem quebrar o que     ║
-║   ja existe. E, por favor, sem valores hardcoded! Usem formulas e        ║
-║   calculos.                                                               ║
 ║                                                                           ║
-║   Lembrem-se dos principios SOLID, especialmente o Open/Closed!"         ║
+║   Lembrem-se dos principios SOLID, especialmente o Open/Closed!"          ║
 ║                                                                           ║
 ╚═══════════════════════════════════════════════════════════════════════════╝
 ```
