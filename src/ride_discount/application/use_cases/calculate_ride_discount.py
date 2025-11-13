@@ -45,3 +45,4 @@ class CalculateRideDiscountUseCase:
         final_price = context.base_price - discount_amount
 
         return final_price, applied_discounts
+
