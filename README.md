@@ -1,8 +1,8 @@
-# Sistema de Descontos para Corridas
+# Sistema de Descontos para Corridas (UBER)
 ## Demonstração Prática do Open/Closed Principle (SOLID)
 
 > 🎯 **Objetivo:** Simular como desenvolvedores Junior, Pleno e Senior resolveriam a mesma task,
-> mostrando a evolução da aplicação dos princípios SOLID na prática.
+> mostrando a evolução da aplicação com princípios SOLID na prática.
 
 ---
 
